@@ -4,12 +4,19 @@ public class oper{
         int b=15;
         String str1="Ramya";
         String str2="1107";
+        boolean isdooropen=true;
         boolean isEqual=(a==b);
         boolean isNotequal=(a!=b);
         boolean isGreater=(a>b);
         boolean isLesser=(a<b);
         boolean isGreaterorEqual=(a>=b);
         boolean isLesserorEqual=(a<=b);
+        if(!isdooropen){
+            System.out.println("Door is open");
+        }
+        else{
+            System.out.println("Door is close");
+        }
         System.out.println("a==b"+isEqual);
         System.out.println("a!=b"+isNotequal);
         System.out.println("a>b"+isGreater);
@@ -24,4 +31,5 @@ public class oper{
                 System.out.println("Invalid Username or password");
             }
         }
+        
     }
